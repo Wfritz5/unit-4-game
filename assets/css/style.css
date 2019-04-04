@@ -1,0 +1,103 @@
+body {
+    background: url("../images/darkBlue.jpg")
+}
+
+.crystals {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.crystal {
+    border: 5px solid black;
+    height: 100px;
+    width: 100px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+.crystal:hover {
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transform: translate(3px, 3px);
+
+}
+
+#goal {
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: green;
+    margin-right: 10px;
+    border-top: 5px solid black;
+    border-right: 5px solid black;
+    border-left: 5px solid black;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+#previous {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: green;
+    margin-right: 10px;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+    border-left: 5px solid black;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+#win {
+    margin-top: 10px;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    background-color: cyan;
+    border-top: 5px solid black;
+    border-right: 5px solid black;
+    border-left: 5px solid black;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+#loss {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    background-color: cyan;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+    border-left: 5px solid black;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+#instructions {
+    color: white;
+    font-size: 16px;
+    margin-top: 10px;
+    background-color: tan;
+    border: 5px solid black;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+#title {
+    color: white;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    float: left;
+    background-color: orange;
+    padding-bottom: 15px;
+    border: 5px solid black;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+
+}
